@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "fix-remove-from-team",
+  "version": "${version}",
+  "name": "Fix Cannot Remove From Team",
+  "description": "Applies a workaround for the 'Cannot remove from team' error",
+  "authors": [
+    "Mufaro"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fix-remove-from-team/icon.png",
+  "environment": "client",
+  "mixins": [
+    "fix-remove-from-team.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
